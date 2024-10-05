@@ -18,7 +18,7 @@ export const Ruteo = () =>{
 
                 <Route path="/menactu/: codigo" element= {<MenuActualizar />} />
                 <Route path="/menuacer" element= {<Acerca />} />
-                <Route path="/menunoen" element= {<NoEncontrado />} />
+                <Route path="*" element= {<NoEncontrado />} />
             </Route>
         </Routes>
     )

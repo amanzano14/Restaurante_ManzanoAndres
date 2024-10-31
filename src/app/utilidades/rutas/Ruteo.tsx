@@ -16,7 +16,7 @@ export const Ruteo = () =>{
                 <Route path="/mencre" element= {<MenuCrear />} />
                 <Route path="/menlis" element= {<MenuListar />} />
                 <Route path="/menadmin" element= {<MenuAdmin />} />
-                <Route path="/menactu/: codigo" element= {<MenuActualizar />} />
+                <Route path="/menactu/:codigo" element= {<MenuActualizar />} />
 
                 <Route path="/menuacer" element= {<Acerca />} />
 

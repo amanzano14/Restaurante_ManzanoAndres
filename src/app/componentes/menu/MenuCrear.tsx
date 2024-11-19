@@ -43,18 +43,18 @@ export const MenuCrear = () => {
               />
             </div>
 
-            <div className="col-md-3">
+            <div className="col-md-6">
               <label htmlFor="regi" className="form-label">
                 Region
               </label>
               <select className="form-select" id="regi" name="regi" required>
                 <option selected disabled value="">
-                  Selecciona Region.
+                  Selecciona region.
                 </option>
-                <option>Caribe</option>
-                <option>Santander</option>
-                <option>Orinoquia</option>
-                <option>Bolivar</option>
+                <option>caribe</option>
+                <option>santander</option>
+                <option>orinoquia</option>
+                <option>bolivar</option>
               </select>
             </div>
 

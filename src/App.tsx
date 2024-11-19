@@ -1,21 +1,22 @@
-import './App.css'
+import "./App.css";
 
-import { BrowserRouter } from 'react-router-dom'
-import { Ruteo } from './app/utilidades/rutas/Ruteo'
-import { Cabecera } from './app/componentes/contenedor/Cabecera'
+import { BrowserRouter } from "react-router-dom";
+
+import { Cabecera } from "./app/componentes/Cabecera";
+import { Ruteo } from "./app/utilidades/rutas/Ruteo";
 
 function App() {
   return (
     <>
-      <div className='container-fluid'>
+      <div className="container-fluid">
         <BrowserRouter>
           <Cabecera />
-
-          <Ruteo />        
+          
+          <Ruteo />
         </BrowserRouter>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

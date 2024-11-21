@@ -36,7 +36,7 @@ export const MenuListar = () => {
             <td>{miPla.precioPlato}</td>
             <td className="text-center">{obtenerNombre(miPla.regionPlato)}</td>
             <td>
-              <img src={miPla.imagenPlatoBase64} alt={miPla.nombrePlato} className="imagenListado"/> 
+              <img src={miPla.imagenPlatoBase64} alt={miPla.nombrePlato} className="imagenListado" style={{ width: '200px', height: 'auto' }}/> 
               <br/>
               {miPla.imagenPlato}
               </td>
@@ -45,7 +45,7 @@ export const MenuListar = () => {
           
           
 
-         
+        
         </tbody>
       </table>
     </div>

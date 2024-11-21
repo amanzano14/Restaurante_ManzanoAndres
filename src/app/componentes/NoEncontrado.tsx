@@ -26,7 +26,7 @@ export const NoEncontrado = () => {
               </li>
               <li className="list-group-item">
                 <i className="bi bi-check-circle text-success me-2"></i>
-                ontamos con un concepto único que mezcla tradición, innovación y
+                Contamos con un concepto único que mezcla tradición, innovación y
                 autenticidad.
               </li>
               <li className="list-group-item">
